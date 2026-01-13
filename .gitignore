@@ -1,1 +1,3 @@
-/todo.db
+# The file ignored is the database produced by the app, the list itself. 
+# The app should automatically create a new one for the current user.
+db/todo.db
