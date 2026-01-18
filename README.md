@@ -10,3 +10,5 @@ The solution was creating an unique id for each row, a column that stores primar
 #dbCursor.execute("CREATE TABLE IF NOT EXISTS tasks(name, state)")
 became
 #dbCursor.execute("CREATE TABLE IF NOT EXISTS tasks(id INTEGER PRIMARY KEY, name TEXT NOT NULL, state INT NOT NULL DEFAULT 0)")
+
+After making the user able to fetch written tasks and mark them as done, work began on making the GUI.
